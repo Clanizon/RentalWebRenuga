@@ -1,0 +1,15 @@
+alert(hello)
+$(function(){
+    $('.multiple-item').slick({
+        infinite:true,
+        slidesToShow:3,
+        slidesToScroll:1,
+        arrows:true,
+        dots:false,
+        autoplay:true,
+        autoplaySpeed:2000,
+        dotd:false,
+        centerMode:true,
+        centerPadding:'0',
+    });
+})
