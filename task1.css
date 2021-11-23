@@ -49,7 +49,7 @@ html,body
     height: 100%;
     width:50%;
     float: right;
-    padding: 80px;
+
 }
 .h
 {
@@ -169,6 +169,7 @@ html,body
     background-color: #772360;
     color: #ffffff;
     padding: 1rem;
+    border: 0px !important;
     border: 0px;
   }
   .inputval:focus-visible{

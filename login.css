@@ -2,14 +2,10 @@ html,body
 {
     height:100%;
     width:100%;
-}
-*
-{
     margin:0px;
-    padding: 0%;
-    box-sizing: border-box;
 }
-  .container
+
+ .container
  {
     background-color:white;
     width:100%;
@@ -43,12 +39,15 @@ html,body
    margin: 182px 0 0;
    object-fit: contain;
 }
+.containright{
+  padding:6rem;
+}
 .div2
 {
     height: 100%;
     width:50%;
     float: right;
-    padding: 45px;
+
 }
 .h
 {
@@ -57,7 +56,7 @@ html,body
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.5;
+  line-height: 0;
   letter-spacing: normal;
   color: #1d0e1a;
 }
@@ -67,7 +66,7 @@ html,body
     font-size: 46px;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.5;
+    line-height: 0;
     letter-spacing: normal;
     color: #1d0e1a;
     font-weight:600 ;
@@ -100,8 +99,8 @@ html,body
   right: 1%;
 }
   
-  .a {
-    width: 130px;
+  .themlink {
+
     height: 20px;
     font-family: Poppins;
     font-size: 14px;
@@ -113,12 +112,14 @@ html,body
     text-align: right;
     color: #333;
     float: right;
+    margin-top: 10px;
   }
   
   .rectangle{
        height: 50px;
         margin: 39px 0 29px;
         width: 100%;
+        border: 0px !important;
         border-radius: 25px;
         background-color: #772360;
         color: #ffffff;

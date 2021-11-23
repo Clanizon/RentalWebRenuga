@@ -2,13 +2,9 @@ html,body
 {
     height:100%;
     width:100%;
+    margin: 0px;
 }
-*
-{
-    margin:0px;
-    padding: 0%;
-    box-sizing: border-box;
-}
+
   .container
  {
     background-color:white;
@@ -38,7 +34,7 @@ padding: 23px;
     margin: 0 116px 0 5px;
     padding: 65px 0 0 ;
     padding-left: 160px;
-    line-height: 1.5;
+    line-height: 1.2;
     font-family: PlayfairDisplay;
     font-size: 30px;
     align-content: center;
@@ -70,6 +66,11 @@ button.loginbutton {
 a {
     text-decoration: none;
 }
+.searchpart{
+    position: relative;
+    display: flex;
+    width: 100%;
+}
 .search-container
 {
     position: absolute;
@@ -77,9 +78,11 @@ a {
     background-color: #ffffff;
     text-align: center;
     display: flex;
-    bottom:0%;
+    bottom: -5%;
+    box-shadow: 2px 2px 10px 5px rgb(0 0 0 / 4%);
     border-radius: 2rem;
-    margin: 0 0 -30 130;
+   position: absolute;
+   left: 12%;
     width: 70%;
     font-family: Poppins;
     padding: 5px;
@@ -88,20 +91,19 @@ a {
 .location
 {
     width:4rem;
-    height: 2rem;
     margin: 8px;
     padding-top:5px;
 }
 img.locationimage
 {
-    padding-top: 10px;
+   padding: 11px 0px 10px 10px;
 }
 img.pathimg
 {
     padding-top: 20px;
 }
 .searchbar {
-    width: 40rem;
+    width: 50%;
     margin: 10px;
     border: none;
     padding-left: 20px;
@@ -110,18 +112,30 @@ img.pathimg
 label {
     padding-top: 15px;
 }
+.searchbar:focus-visible{
+    outline: none;
+}
+.radiopart{
+    float: right;
+    width: 40%;
+}
+.searchicon
+{
+    position: absolute;
+    left: 8%;
+    bottom: 19%;
+}
 .searchbutton
 {
     background-color: #772360;
     color: #ffffff;
     border-radius: 18px;
-    padding: 3px;
-    padding-bottom: 15px;
-    float:right;
-    margin: 10px;
-    height: 2rem;
-    width:9rem;
-    border:0;
+position: relative;
+    float: right;
+    margin: 5px;
+    border: 0;
+    width: 9rem;
+    height: 34px;
 }
 .img.searchbutton
 {
@@ -130,12 +144,24 @@ label {
 .radiobutt {
     margin: 1rem;
 }
+  
 .div2{
     display: flex;
     align-items: center;
-    width:100%;
+    width:70%;
     height: 50%;
+    margin: 0 auto;
 }
+.owl-prev{
+position:absolute;
+left: -5%;
+top: 50%;
+}
+.owl-next{
+    position:absolute;
+    right: -5%;
+    top: 50%;
+    }
 .openarrow
 {
 margin: 85 0 0 0;
@@ -148,18 +174,22 @@ margin: 85 0 0 0;
 font-family: PlayfairDisplay;
   font-size: 18px;
 }
-.items
+.owl-carousel{
+    margin-top: 3rem;
+}
+.item
 {
-    width:50%;
+    
     height: 75%;
-    margin: 40px 64px 0 40px;
-    padding: 0 0 60px;
+    margin: 1rem;
+    width: 200px;
+    padding:1rem;
     border-radius: 12px;
     border: solid 1px rgba(39, 166, 166, 0.3);
     background-color:#ffffff;
     font-family: Poppins;
     font-size: 12px;
-    padding:10 10 15 25;
+   
 }
 .subdiv4
 {
@@ -186,6 +216,9 @@ font-family: PlayfairDisplay;
     font-family: Poppins;
     font-size: 12px;
     padding:10 10 15 25;
+}
+.owl-carousel .owl-item img{
+    width: 100px !important;
 }
 .subdiv6
 {
