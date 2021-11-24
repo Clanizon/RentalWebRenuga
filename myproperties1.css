@@ -1,0 +1,195 @@
+html,body
+{
+    height:100%;
+    width:100%;
+}
+*
+{
+    margin:0px;
+    padding: 0%;
+    box-sizing: border-box;
+}
+  .container
+ {
+    background-color:white;
+    width: 100%;
+    height: 100%;
+ }
+ .div1
+ {
+     height: 15%;
+     width:100%;
+     text-align: center;
+ }
+ .logoimg
+ {
+     float:left;
+     margin: 1rem;
+}
+.search-container
+{
+    display: inline-flex;
+    align-items: center;
+    margin: 1rem;
+    position: absolute;
+    left:20%;
+    width:58%;
+    border-radius: 26px;
+   border: solid 1px #f6e8c6;
+}
+.searchpart{
+    position: relative;
+    display: flex;
+    width: 100%;}
+ul
+{
+    float: right;
+}
+li{
+    display: inline-block;
+    margin: 5px;
+}
+.searchbutton
+{
+    border-radius: 50%;
+    background-color:#772360 ;
+    margin: 10px;
+}
+.searchbar {
+        width: 62%;
+        margin: 10px;
+        border: none;
+        padding-left: 20px;
+        color: #999999;
+       }
+       img.locationimage {
+        margin: 3px;
+       }
+       .radiobutt {
+        margin: 1rem;
+    }
+.div2
+{
+    background-color:#ffffff;
+    height: 80%;
+    width:100%;
+}
+
+h3.headproperty
+{
+    float:left;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.subdiv1
+{
+    float: left;
+    height: 30%;
+    padding: 0.5rem;
+    width:45%;
+    border: 1px solid #f0f0f0;
+    margin: 1rem;
+    border-radius: 5px;
+
+}
+.deleteimag
+{
+    padding-right: 5px;
+}
+.Line {
+    width: 100%;
+    height: 1%;
+    border: solid 1px darkred;
+}
+.traditional
+{
+float: left;
+}
+.head
+{
+    display: inline-block;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+.TraditionalHome
+{
+    float:left;
+    height: 100%;
+    width:40%;
+    padding-left: 5px;
+}
+.oppbutt
+{
+    height: 100%;
+    width:35%;
+    float:right;
+    position: relative;
+}
+.amount{
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000000;
+  float: right;
+}
+.place
+{
+    padding-left:10px;
+    font-family: Poppins;
+    font-size: 14px;
+    padding-bottom: 15px;
+   
+}
+.optionalbutton
+{
+    margin: 6px;
+    color: #666666;
+    background: #fff;
+    border: 1px solid;
+    padding: 4px;
+    border-radius: 7px;
+}
+.editbutton
+{
+    float: right;
+    margin: 18px 0px -6px -1px;
+    border: 0;
+    color: #772360;
+    padding-left: 3rem;
+    padding-top: 1rem;
+    background-color: transparent;
+    position: absolute;
+    right: 86;
+    bottom: 66;
+}
+.viewbutton
+{
+    float: right;
+    margin: 18px -100px -6px -1px;
+    border: 0;
+    color: #772360;
+    padding-left: 3rem;
+    padding-top: 1rem;
+    background-color: transparent;
+    position: absolute;
+    right: 116;
+    bottom: 66;
+}
+.deletebutton
+{
+    float:right;
+    border-radius: 16px;
+    border-color: #772360;
+    font-family: Poppins;
+    height: 20%;
+    margin:0.5rem;
+    width: 7rem;
+    color: #772360;
+    position: absolute;
+    bottom: 1;
+    right: 0;
+}

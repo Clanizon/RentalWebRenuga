@@ -65,6 +65,7 @@ button.loginbutton {
 }
 a {
     text-decoration: none;
+    color: #1d0e1a;
 }
 .searchpart{
     position: relative;
@@ -125,17 +126,23 @@ label {
     left: 8%;
     bottom: 19%;
 }
+a.search
+{
+    color: #ffffff;
+}
 .searchbutton
 {
     background-color: #772360;
     color: #ffffff;
     border-radius: 18px;
-position: relative;
+    position: relative;
     float: right;
     margin: 5px;
     border: 0;
     width: 9rem;
     height: 34px;
+    text-decoration: none;
+    font-family: Poppins;
 }
 .img.searchbutton
 {

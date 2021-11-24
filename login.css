@@ -2,10 +2,14 @@ html,body
 {
     height:100%;
     width:100%;
-    margin:0px;
 }
-
- .container
+*
+{
+    margin:0px;
+    padding: 0%;
+    box-sizing: border-box;
+}
+  .container
  {
     background-color:white;
     width:100%;
@@ -17,37 +21,36 @@ html,body
     width: 50%;
     float:left;
     background-color: #f3ead4;
+    position: relative;
 }
 .subdiv1
 {
     height: 40%;
-    width:100%;
-    margin: 0 116px 0 0;
-    padding: 100px 0 0;
-    padding-left: 140px;
     line-height: 1.5;
     font-family: PlayfairDisplay;
     font-size: 30px;
+    position: absolute;
+    left:23%;
+    top:10%;
 }
 .subdiv2
 {
     height: 60%;
     width:100%;
+    position: absolute;
+    bottom: 0;
 }
 .img
 {
    margin: 182px 0 0;
    object-fit: contain;
 }
-.containright{
-  padding:6rem;
-}
 .div2
 {
     height: 100%;
     width:50%;
     float: right;
-
+    padding: 45px;
 }
 .h
 {
@@ -56,7 +59,7 @@ html,body
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 0;
+  line-height: 1.5;
   letter-spacing: normal;
   color: #1d0e1a;
 }
@@ -66,7 +69,7 @@ html,body
     font-size: 46px;
     font-stretch: normal;
     font-style: normal;
-    line-height: 0;
+    line-height: 1.5;
     letter-spacing: normal;
     color: #1d0e1a;
     font-weight:600 ;
@@ -99,8 +102,8 @@ html,body
   right: 1%;
 }
   
-  .themlink {
-
+  .a {
+    width: 130px;
     height: 20px;
     font-family: Poppins;
     font-size: 14px;
@@ -112,14 +115,12 @@ html,body
     text-align: right;
     color: #333;
     float: right;
-    margin-top: 10px;
   }
   
   .rectangle{
        height: 50px;
         margin: 39px 0 29px;
         width: 100%;
-        border: 0px !important;
         border-radius: 25px;
         background-color: #772360;
         color: #ffffff;

@@ -2,9 +2,13 @@ html,body
 {
     height:100%;
     width:100%;
-    margin:0px;
 }
-
+*
+{
+    margin:0px;
+    padding: 0%;
+    box-sizing: border-box;
+}
   .container
  {
     background-color:white;
@@ -17,22 +21,24 @@ html,body
     width: 50%;
     float:left;
     background-color: #f3ead4;
+    position: relative;
 }
 .subdiv1
 {
     height: 40%;
-    width:100%;
-    margin: 0 116px 0 0;
-    padding: 48px 0 0;
-    padding-left: 178px;
+    position: absolute;
+    top:10%;
+    left:23%;
     line-height: 1.5;
     font-family: PlayfairDisplay;
-    font-size: 25px;
+    font-size: 30px;
 }
 .subdiv2
 {
     height: 60%;
     width:100%;
+    position: absolute;
+    bottom: 0;
 }
 .img
 {
@@ -44,17 +50,13 @@ html,body
     height: 100%;
     width:50%;
     float: right;
-   
-}
-.containright
-{
-    padding: 6rem;
+    padding: 80px;
 }
 .head
 {
   font-family: PlayfairDisplay;
   font-size: 32px;
-  line-height: 0.5;
+  line-height: 1.5;
   letter-spacing: normal;
   color: #000000;
   font-weight: normal;
@@ -63,7 +65,7 @@ html,body
 {
     font-family: PlayfairDisplay;
     font-size: 32px;
-    line-height: 0.5;
+    line-height: 1.5;
     letter-spacing: normal;
     color: #000000;
     font-weight:600 ;
@@ -80,7 +82,7 @@ html,body
 {
     border:none;
     width: 100%;
-    margin: 0.5rem 0rem;
+    height: 2rem;
 }
 input.text {
     border-bottom: 1px solid #999999;
@@ -102,12 +104,12 @@ input.text {
 .rectangle
 {
   height: 50px;
-  border: 0px !important;
   margin: 39px 0 29px;
   width:100%;
   border-radius: 25px;
   background-color: #772360;
   color: #ffffff;
+  border: 0px;
 }
 .para
 {
